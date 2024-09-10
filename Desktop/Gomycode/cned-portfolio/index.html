@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNED Portfolio</title>
+    <link rel="stylesheet" href="./src/input.css" />
+  </head>
+  <body class="bg-[#fcfcfc]">
+    <!-- Start of header section -->
+    <header class="bg-[#fdfdfd] py-3 shadow sticky top-0 z-20">
+      <nav class="mx-8 lg:mx-12 flex justify-between gap-8 items-center">
+        <!-- logo -->
+        <div class="flex items-center gap-2 font-bold text-xl md:text-2xl">
+          <p
+            class="bg-purple-500 hover:bg-lime-500 cursor-pointer h-8 w-8 lg:h-11 lg:w-11 rounded-full text-center place-content-center text-[#fdfdfd]"
+          >
+            C
+          </p>
+          <p class="text-gray-700 cursor-pointer">Chinedu Nwogu</p>
+        </div>
+
+        <ul class="hidden md:flex gap-8 text-gray-800">
+          <li
+            class="hover:text-[#fdfdfd] hover:bg-lime-500 py-1 px-3 rounded-lg"
+          >
+            <a href="#">About</a>
+          </li>
+          <li
+            class="hover:text-[#fdfdfd] hover:bg-lime-500 py-1 px-3 rounded-lg"
+          >
+            <a href="#">Services</a>
+          </li>
+          <li
+            class="hover:text-[#fdfdfd] hover:bg-lime-500 py-1 px-3 rounded-lg"
+          >
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <button
+              class="bg-purple-500 text-[#fdfdfd] py-1 px-3 rounded-lg font-bold hover:bg-lime-400 hover:text-purple-800"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <span class="block md:hidden"
+          ><i class="fa-solid fa-bars text-gray-800"></i
+        ></span>
+      </nav>
+    </header>
+    <!-- Header section ends here -->
+
+    <!-- Start of Hero section -->
+    <main
+      class="mx-8 lg:mx-12 justify-center items-center gap-12 py-8 lg:py-14 my-8 bg-[#d7dce2] shadow shadow-gray-500 h-[400x] rounded-lg flex flex-col lg:flex-row"
+    >
+      <!-- hero text and button container -->
+      <article class="lg:w-96 max-w-full mx-8 mb-0">
+        <h1
+          class="text-2xl md:text-3xl lg:text-4xl font-bold pb-2 text-gray-700"
+        >
+          HI, I AM <br />CHINEDU NWOGU.
+        </h1>
+        <p class="text-gray-700 text-[1.125rem]">
+          A Lagos based software developer passionate about building responsive
+          and user-friendly websites.
+        </p>
+        <!-- hero button and icons container -->
+        <div class="flex flex-col md:flex-row gap-2 items-center my-4">
+          <button
+            class="bg-purple-500 text-[#fdfdfd] py-2 px-3 rounded-lg font-bold hover:bg-lime-500"
+          >
+            Contact Me
+            <i class="fa-solid fa-arrow-up-right-from-square ps-1"></i>
+          </button>
+          <span>
+            <i
+              class="fa-brands fa-linkedin-in text-[#fdfdfd] h-10 w-10 rounded-full bg-purple-500 place-content-center text-center cursor-pointer hover:bg-lime-500"
+            ></i>
+            <i
+              class="fa-brands fa-github text-[#fdfdfd] h-10 w-10 rounded-full bg-purple-500 place-content-center text-center cursor-pointer hover:bg-lime-500"
+            ></i>
+          </span>
+        </div>
+        <!-- Hero button and icons container ends here -->
+      </article>
+      <!-- hero image -->
+      <div class="mt-[-3rem]">
+        <img
+          class="h-56 lg:h-96 w-full px-12"
+          src="/images/profile.png"
+          alt=""
+        />
+      </div>
+    </main>
+    <!-- Hero section ends here -->
+
+    <!-- Featured projects starts here -->
+    <section class="mx-8 lg:mx-12 flex flex-col gap-8">
+      <!-- Featured projects section title and intro container -->
+      <div class="text-gray-700 my-8">
+        <h2 class="text-xl md:text-2xl lg:text-4xl font-bold">
+          FEATURED PROJECTS
+        </h2>
+        <p class="lg:w-[40%] mt-2 text-gray-700">
+          Here are some of the selected projects that showcase my passion for
+          software development
+        </p>
+      </div>
+      <!-- Project card one wrapper -->
+      <article class="flex flex-col md:flex-row gap-8 w-full">
+        <!-- button and image container -->
+        <div
+          class="bg-[#d7dce2] shadow shadow-gray-500 max-w-full w-full p-4 lg:p-8 flex flex-col gap-8 rounded-lg"
+        >
+          <span>
+            <button
+              class="p-2 font-semibold rounded-lg bg-purple-500 text-[#fdfdfd] hover:bg-lime-500"
+            >
+              Conceptual Work
+            </button>
+          </span>
+          <span class="w-full">
+            <img
+              class="w-full"
+              src="/images/new-project.png"
+              alt="Project one"
+            />
+          </span>
+        </div>
+        <!-- project card main text container -->
+        <div
+          class="p-4 lg:p-8 flex flex-col max-w-full w-full bg-white shadow shadow-purple-400 rounded-lg"
+        >
+          <span class="text-gray-700 md:max-h-80 w-full">
+            <h3 class="text-xl font-semibold text-gray-700">
+              Promotional landing page for our favourite show
+            </h3>
+            <p class="mt-4 text-gray-700 pb-4 leading-7">
+              Teamed up with other developers to breathe life into a promotional
+              website for our beloved show, Adventure Time. Delivered a
+              responsive design with dynamic content capabilities.
+              <span class="hidden xl:block"
+                >seamlessly integrating a newsletter feature to keep fans
+                updated with the latest advantures.</span
+              >
+            </p>
+            <h4 class="text-xl font-semibold lg:leading-10 text-gray-700">
+              PROJECT INFO
+            </h4>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p>Year</p>
+              <p>2024</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p class="">Role</p>
+              <p class="">Fullstack Software Developer</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <article
+              class="flex gap-6 md:gap-5 font-semibold text-sm md:text-lg text-gray-700"
+            >
+              <p
+                class="underline decoration-gray-400 decoration-2 underline-offset-4 lg:leading-10 hover:text-lime-500 hover:decoration-lime-500 cursor-pointer"
+              >
+                LIVE DEMO <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </p>
+              <p
+                class="underline decoration-gray-400 decoration-2 underline-offset-4 lg:leading-10 hover:text-lime-500 hover:decoration-lime-500 cursor-pointer"
+              >
+                SEE ON GITHUB <i class="fa-brands fa-github"></i>
+              </p>
+            </article>
+          </span>
+        </div>
+      </article>
+      <!-- Project card one ends here -->
+
+      <!-- Project card two wrapper -->
+      <article class="flex flex-col md:flex-row gap-8 w-full mt-8 h-fit">
+        <!-- button and image container -->
+        <div
+          class="bg-white shadow shadow-gray-500 max-w-full w-full p-4 lg:p-8 flex flex-col gap-8 rounded-lg"
+        >
+          <img class="w-full" src="/images/project-3.png" alt="Project three" />
+        </div>
+        <!-- project card main text container -->
+        <div
+          class="p-4 lg:p-8 flex flex-col max-w-full w-full bg-[#d7dce2] shadow shadow-purple-400 rounded-lg"
+        >
+          <span class="text-gray-700 w-full">
+            <h3 class="text-xl font-semibold text-gray-700">
+              Blog site for World News
+            </h3>
+            <p class="mt-4 text-gray-700 pb-4 leading-7">
+              Mastered CSS Grid complexities in building innovative news
+              homepage, navigating intricate design decisions for a seamless
+              user experience. Leveraged the challenge to enhance skills in
+              front-end development.
+            </p>
+            <h4 class="text-xl font-semibold lg:leading-10 text-gray-700">
+              PROJECT INFO
+            </h4>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p class="">Client</p>
+              <p class="">World News</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p>Year</p>
+              <p>2024</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p class="">Role</p>
+              <p class="">front-end Developer</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <article
+              class="flex gap-6 md:gap-10 font-semibold text-sm md:text-lg text-gray-700"
+            >
+              <p
+                class="underline decoration-gray-400 decoration-2 underline-offset-4 lg:leading-10 hover:text-lime-500 hover:decoration-lime-500 cursor-pointer"
+              >
+                VIEW PROJECT
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </p>
+            </article>
+          </span>
+        </div>
+      </article>
+      <!-- Project card two ends here -->
+
+      <!-- Project card three wrapper -->
+      <article class="flex flex-col md:flex-row gap-8 w-full mt-8 h-fit">
+        <!-- button and image container -->
+        <div
+          class="bg-[#d7dce2] shadow shadow-gray-500 max-w-full w-full p-4 lg:p-8 flex flex-col gap-8 rounded-lg"
+        >
+          <span>
+            <button
+              class="py-2 px-3 font-semibold rounded-lg bg-purple-500 text-[#fdfdfd] hover:bg-lime-500"
+            >
+              Challenge
+            </button>
+          </span>
+
+          <img class="w-full" src="/images/project-1.png" alt="Project one" />
+        </div>
+        <!-- project card main text container -->
+        <div
+          class="p-4 lg:p-8 flex flex-col max-w-full w-full bg-white shadow shadow-purple-400 rounded-lg"
+        >
+          <span class="text-gray-700 w-full">
+            <h3 class="text-xl font-semibold text-gray-700">
+              E-commerce product page
+            </h3>
+            <p class="mt-4 text-gray-700 pb-4 leading-7">
+              Successfully crafted an egnaging product page featuring a dynamic
+              lightbox gallery and seamless cart functionality, showcasing
+              proficiency in JavScript development.
+            </p>
+            <h4 class="text-xl font-semibold lg:leading-10 text-gray-700">
+              PROJECT INFO
+            </h4>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p class="">Client</p>
+              <p class="">Sneakers Store</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p>Year</p>
+              <p>2024</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <div class="flex justify-between lg:leading-10 text-gray-700">
+              <p class="">Role</p>
+              <p class="">Front-end Developer</p>
+            </div>
+            <hr class="bg-purple-300 h-0.5 mb-2" />
+            <article
+              class="flex gap-6 md:gap-5 font-semibold text-sm md:text-lg text-gray-700"
+            >
+              <p
+                class="underline decoration-gray-400 decoration-2 underline-offset-4 lg:leading-10 hover:text-lime-500 hover:decoration-lime-500 cursor-pointer"
+              >
+                LIVE DEMO <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </p>
+              <p
+                class="underline decoration-gray-400 decoration-2 underline-offset-4 lg:leading-10 hover:text-lime-500 hover:decoration-lime-500 cursor-pointer"
+              >
+                SEE ON GITHUB <i class="fa-brands fa-github"></i>
+              </p>
+            </article>
+          </span>
+        </div>
+      </article>
+      <!-- Project card three ends here -->
+    </section>
+    <!-- Featured projects ends here -->
+
+    <!-- About me section starts here -->
+    <section class="my-8">
+      <div
+        class="mx-8 lg:mx-12 px-5 lg:px-12 flex justify-between gap-4 lg:gap-8 flex-col lg:flex-row bg-[#d7dce2] rounded-lg shadow shadow-purple-400]"
+      >
+        <h2 class="text-2xl lg:text-5xl font-bold pt-8 w-full text-gray-700">
+          ABOUT ME
+        </h2>
+        <span class="w-full lg:px-8 pb-6">
+          <p
+            class="text-base lg:text-xl font-semibold text-gray-700 pb-8 lg:pt-8"
+          >
+            I am a Fullstack Software Developer based in Lagos, Nigeria. Has
+            Sociological background.
+          </p>
+          <p class="text-gray-700 mb-8">
+            I am a Fullstack Software Developer based in Lagos, looking for
+            exciting opportunities. Has Sociological backgroind. Likes to focus
+            on accessibility when developing. Passionate and curious about
+            solving problems. Currently, I'm exploring Reactjs, Webflow, and a
+            bit of UX design. While I'm not programming, I enjoy playing
+            football, photography, and playing Scrabble. Learning more to
+            improve my skills.
+          </p>
+          <a
+            class="text-gray-700 font-bold text-base lg:text-lg underline decoration-gray-400 decoration-2 underline-offset-4 lg:leading-10 hover:text-lime-500 hover:decoration-lime-500 cursor-pointer"
+            href="#"
+            >MORE ABOUT ME</a
+          >
+        </span>
+      </div>
+    </section>
+    <!-- About me section ends here -->
+
+    <!-- Start of contact section -->
+    <section class="my-8 lg:my-12">
+      <article
+        class="flex flex-col lg:flex-row justify-between gap-8 mx-8 lg:mx-12"
+      >
+        <div
+          class="w-full text-gray-700 bg-[#fdfdfd] shadow shadow-purple-400 p-8 rounded-lg"
+        >
+          <h2 class="text-2xl lg:text-5xl font-bold py-5 w-full">
+            LET'S CONNECT
+          </h2>
+          <p>
+            Say hello
+            <span
+              class="underline underline-offset-4 decoration-[#fdfdfd] cursor-pointer hover:text-lime-400 hover:decoration-lime-400"
+              >a.chinedu07@gmail.com</span
+            >
+          </p>
+          <p>
+            For more info, here's my
+            <span
+              ><a
+                href="#"
+                class="underline underline-offset-4 decoration-[#fdfdfd] cursor-pointer hover:text-lime-400 hover:decoration-lime-400"
+                >resume</a
+              ></span
+            >
+          </p>
+          <span class="flex gap-6 my-8 text-purple-700 text-xl lg:text-2xl">
+            <i
+              class="fa-brands fa-linkedin-in cursor-pointer hover:text-lime-400"
+            ></i>
+            <i
+              class="fa-brands fa-github cursor-pointer hover:text-lime-400"
+            ></i>
+            <i
+              class="fa-brands fa-x-twitter cursor-pointer hover:text-lime-400"
+            ></i>
+            <i
+              class="fa-brands fa-instagram cursor-pointer hover:text-lime-400"
+            ></i>
+          </span>
+        </div>
+        <!-- Contact form container -->
+        <div
+          class="w-full bg-[#fdfdfd] shadow shadow-purple-400 p-8 rounded-lg text-gray-700"
+        >
+          <form class="flex flex-col gap-2" action="">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter your full name"
+              class="placeholder-gray-400 bg-[#f3f2f2] p-2 rounded-lg outline-none cursor-pointer"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="example@email.com"
+              class="placeholder-gray-400 bg-[#f3f2f2] p-2 rounded-lg outline-none cursor-pointer"
+            />
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              placeholder="What do you want"
+              class="placeholder-gray-400 bg-[#f3f2f2] p-2 rounded-lg outline-none cursor-pointer"
+            />
+            <label for="message">Message</label>
+            <textarea
+              name=""
+              id=""
+              placeholder="Enter your message"
+              class="placeholder-gray-400 bg-[#f3f2f2] p-2 rounded-lg outline-none cursor-pointer resize-none"
+            ></textarea>
+            <button
+              class="self-start px-4 py-2 rounded-lg font-semibold bg-purple-500 hover:bg-lime-400 text-[#fdfdfd] mt-2"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </article>
+    </section>
+    <!-- Contact section ends here -->
+
+    <!-- Footer -->
+
+    <footer class="bg-[#d7dce2]">
+      <p class="py-5 text-gray-700 text-center font-semibold">
+        &COPY;2024 Chinedu Nwogu. All Rights Reserved.
+      </p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/67a5038876.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

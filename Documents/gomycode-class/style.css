@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f4f8;
+}
+
+.entire-homepage {
+  margin: 0 80px;
+}
+.jobster-logo {
+  width: 185px;
+  margin-top: 20px;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-section-text {
+  margin-top: 50px;
+}
+
+.homepage-title-text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 48px;
+  font-stretch: auto;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  margin-bottom: 0;
+}
+
+.title-text-in-blue {
+  color: #3b82f6;
+}
+
+.homepage-paragraph-text {
+  color: #486581;
+  font-family: "Cabin", sans-serif;
+  line-height: 28px;
+  margin: 16px 0 24px;
+  padding-right: 50px;
+}
+
+.homepage-login-register-btn {
+  width: 175px;
+  height: 39px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.homepage-login-register-btn:hover {
+  cursor: pointer;
+  background-color: #1d4ed8;
+}
+
+.hero-section-img {
+  margin-top: -20px;
+  height: 85vh;
+  width: auto;
+}
+
+.homepage-main-image {
+  height: 90%;
+  width: auto;
+}
+
+/* Start of mobile styles */
+
+@media (max-width: 1024px) {
+  .entire-homepage {
+    margin: 25px 70px;
+  }
+
+  .hero-section-img {
+    height: 27vh;
+    width: auto;
+    margin-top: 100px;
+  }
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 280px 0;
+  }
+}
+
+@media (max-width: 950px) {
+  .hero-section-img {
+    display: none;
+  }
+
+  .hero-section {
+    margin: 340px 0;
+  }
+
+  .homepage-paragraph-text {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 780px) {
+  .hero-section {
+    margin: 200px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .jobster-logo {
+    width: 160px;
+  }
+  .entire-homepage {
+    margin: 0 35px;
+  }
+
+  .hero-section {
+    margin: 95px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .entire-homepage {
+    margin: 0 20px;
+  }
+
+  .hero-section {
+    margin: 50px 0;
+  }
+}
